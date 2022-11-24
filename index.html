@@ -79,15 +79,18 @@
               </p>
               <div class="shadow-fill d-none d-lg-block bg-white rounded-pill">
                 <div class="row align-items-center">
-                  <div class="col-6 border-end">
-                    <i class="bi bi-geo-alt-fill" style="font-size: 1rem; color: rgb(219, 69, 69)"></i>
-                    <p class="text-muted d-inline ms-3">City, destination or hotel name</p>
+                  <div class="col-6 border-end text-start">
+                    <i class="bi bi-geo-alt-fill ms-4" style="font-size: 1rem; color: rgb(219, 69, 69)"></i>
+                    <!-- <p class="text-muted d-inline ms-3">City, destination or hotel name</p> -->
+                    <input class="input-focus ms-3" placeholder="City, destination or hotel name" type="text" />
                   </div>
                   <div class="col-3 border-end">
-                    <p class="text-muted m-0">Date of start</p>
+                    <!-- <p class="text-muted m-0">Date of start</p> -->
+                    <input class="input-focus" type="date" placeholder="Date of syat" />
                   </div>
                   <div class="col-3 d-flex justify-content-between align-items-center">
-                    <p class="text-muted m-0 d-inline">Add guest</p>
+                    <!-- <p class="text-muted m-0 d-inline">Add guest</p> -->
+                    <input class="input-focus w-50" type="text" placeholder="Add Guest" />
                     <i class="bi bi-search p-3 hero-icon"></i>
                   </div>
                 </div>
@@ -105,8 +108,8 @@
 
     <!-- Product Section -->
     <div class="container">
-      <h2 class="text-center">Guide for your next vacation</h2>
-      <p class="text-center text-muted">
+      <h2 class="text-center fs-1">Guide for your next vacation</h2>
+      <p class="text-center text-muted mt-4">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, excepturi delectus necessitatibus illo quam eaque!
       </p>
       <div class="d-flex d-none d-lg-flex justify-content-between my-5">
@@ -225,8 +228,8 @@
             <li class="page-item disabled">
               <span class="page-link">Previous</span>
             </li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item active" aria-current="page">
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item" aria-current="page">
               <span class="page-link">2</span>
             </li>
             <li class="page-item"><a class="page-link" href="#">3</a></li>
@@ -249,7 +252,7 @@
       <div class="my-5">
         <div class="row g-5">
           <div class="col-lg-6 d-flex align-items-center justify-content-center">
-            <img class="rounded-4 img-fluid" src="/asset/arches.png" />
+            <img class="rounded-4 img-fluid w-60" src="/asset/arches.png" />
           </div>
           <div class="col-lg-6">
             <h2>Passanger Quick Picker</h2>
@@ -258,7 +261,7 @@
               accusamus, repellat non deserunt. Dolorum officia soluta aliquam reprehenderit libero ut alias doloribus tempore, ratione quae
               veritatis.
             </p>
-            <a class="btn btn-primary rounded-pill px-5 py-3 mt-4" href="#">Read More</a>
+            <a class="btn btn-color rounded-pill px-5 py-3 mt-4" href="#">Read More</a>
           </div>
         </div>
       </div>
@@ -270,7 +273,7 @@
       <div class="my-5">
         <div class="row g-5 flex-lg-row-reverse">
           <div class="col-lg-6 flex align-items-center justify-content-center">
-            <img class="rounded-4 img-fluid" src="/asset/arches.png" />
+            <img class="rounded-4 img-fluid w-60" src="/asset/arches.png" />
           </div>
           <div class="col-lg-6">
             <h2>Passanger Quick Picker</h2>
@@ -279,7 +282,7 @@
               accusamus, repellat non deserunt. Dolorum officia soluta aliquam reprehenderit libero ut alias doloribus tempore, ratione quae
               veritatis.
             </p>
-            <a class="btn btn-primary rounded-pill px-5 py-3 mt-4" href="#">Read More</a>
+            <a class="btn btn-color rounded-pill px-5 py-3 mt-4" href="#">Read More</a>
           </div>
         </div>
       </div>
@@ -291,7 +294,7 @@
       <div class="my-5">
         <div class="row g-5">
           <div class="col-lg-6 d-flex align-items-center justify-content-center">
-            <img class="rounded-4 img-fluid" src="/asset/arches.png" />
+            <img class="rounded-4 img-fluid w-60" src="/asset/arches.png" />
           </div>
           <div class="col-lg-6">
             <h2>Passanger Quick Picker</h2>
@@ -300,7 +303,7 @@
               accusamus, repellat non deserunt. Dolorum officia soluta aliquam reprehenderit libero ut alias doloribus tempore, ratione quae
               veritatis.
             </p>
-            <a class="btn btn-primary rounded-pill px-5 py-3 mt-4" href="#">Read More</a>
+            <a class="btn btn-color rounded-pill px-5 py-3 mt-4" href="#">Read More</a>
           </div>
         </div>
       </div>
@@ -311,9 +314,234 @@
     </div>
     <!-- End Card Image Section -->
 
+    <!-- Spacer -->
+    <div style="height: 15vh"></div>
+    <!-- End Spacer -->
+
+    <!-- Testimonial -->
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between">
+        <img src="/asset/arrow-right.png" alt="" style="width: 10em; -webkit-transform: scaleX(-1); transform: scaleX(-1)" />
+        <h2 class="text-center">Satisfied Customer Are Our Best Ads</h2>
+        <img src="/asset/arrow-right.png" alt="" style="width: 10em" />
+      </div>
+
+      <!-- Testimonial Card 1-->
+      <div class="row row-cols-1 row-cols-md-3 g-5 mt-5">
+        <div class="col">
+          <div class="h-100 border-0">
+            <div class="p-0">
+              <div class="my-3">
+                <div class="d-flex align-items-center">
+                  <img class="img-fluid" src="/asset/user.png" alt="user image" style="width: 50px; height: 50px" />
+                  <div class="flex-grow-1 ms-3">
+                    <h5 class="m-0">Sabrina Melya</h5>
+                    <p class="m-0">Bloger</p>
+                  </div>
+                  <div class="d-flex">
+                    <img src="/asset/star.png" alt="user rating" style="height: 20px" />
+                    <p class="ms-3">3,5</p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <p class="card-text text-muted mt-3 text-trunk">
+                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="h-100 border-0">
+            <div class="p-0">
+              <div class="my-3">
+                <div class="d-flex align-items-center">
+                  <img class="img-fluid" src="/asset/user.png" alt="user image" style="width: 50px; height: 50px" />
+                  <div class="flex-grow-1 ms-3">
+                    <h5 class="m-0">Sabrina Melya</h5>
+                    <p class="m-0">Bloger</p>
+                  </div>
+                  <div class="d-flex">
+                    <img src="/asset/star.png" alt="user rating" style="height: 20px" />
+                    <p class="ms-3">3,5</p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <p class="card-text text-muted mt-3 text-trunk">
+                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="h-100 border-0">
+            <div class="p-0">
+              <div class="my-3">
+                <div class="d-flex align-items-center">
+                  <img class="img-fluid" src="/asset/user.png" alt="user image" style="width: 50px; height: 50px" />
+                  <div class="flex-grow-1 ms-3">
+                    <h5 class="m-0">Sabrina Melya</h5>
+                    <p class="m-0">Bloger</p>
+                  </div>
+                  <div class="d-flex">
+                    <img src="/asset/star.png" alt="user rating" style="height: 20px" />
+                    <p class="ms-3">3,5</p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <p class="card-text text-muted mt-3 text-trunk">
+                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Testimonial Card 1 -->
+
+      <!-- Testimonial Card 2-->
+      <div class="row row-cols-1 row-cols-md-3 g-5 mt-5">
+        <div class="col">
+          <div class="h-100 border-0">
+            <div class="p-0">
+              <div class="my-3">
+                <div class="d-flex align-items-center">
+                  <img class="img-fluid" src="/asset/user.png" alt="user image" style="width: 50px; height: 50px" />
+                  <div class="flex-grow-1 ms-3">
+                    <h5 class="m-0">Sabrina Melya</h5>
+                    <p class="m-0">Bloger</p>
+                  </div>
+                  <div class="d-flex">
+                    <img src="/asset/star.png" alt="user rating" style="height: 20px" />
+                    <p class="ms-3">3,5</p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <p class="card-text text-muted mt-3 text-trunk">
+                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="h-100 border-0">
+            <div class="p-0">
+              <div class="my-3">
+                <div class="d-flex align-items-center">
+                  <img class="img-fluid" src="/asset/user.png" alt="user image" style="width: 50px; height: 50px" />
+                  <div class="flex-grow-1 ms-3">
+                    <h5 class="m-0">Sabrina Melya</h5>
+                    <p class="m-0">Bloger</p>
+                  </div>
+                  <div class="d-flex">
+                    <img src="/asset/star.png" alt="user rating" style="height: 20px" />
+                    <p class="ms-3">3,5</p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <p class="card-text text-muted mt-3 text-trunk">
+                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="h-100 border-0">
+            <div class="p-0">
+              <div class="my-3">
+                <div class="d-flex align-items-center">
+                  <img class="img-fluid" src="/asset/user.png" alt="user image" style="width: 50px; height: 50px" />
+                  <div class="flex-grow-1 ms-3">
+                    <h5 class="m-0">Sabrina Melya</h5>
+                    <p class="m-0">Bloger</p>
+                  </div>
+                  <div class="d-flex">
+                    <img src="/asset/star.png" alt="user rating" style="height: 20px" />
+                    <p class="ms-3">3,5</p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <p class="card-text text-muted mt-3 text-trunk">
+                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Testimonial Card 2 -->
+    </div>
+    <!-- End Testimonial -->
+
+    <!-- Spacer -->
+    <div style="height: 15vh"></div>
+    <!-- End Spacer -->
+
+    <!-- Download App -->
+    <div class="container">
+      <div class="bg-download rounded-1 d-flex align-items-center justify-content-center">
+        <div class="row">
+          <div class="col-10 text-center mx-auto">
+            <h2 class="fs-1">Set your price alert now</h2>
+            <p class="mt-4 text-muted">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio dicta dolores quisquam amet! Odit neque dolore illum molestiae,
+              porro ipsa?
+            </p>
+            <div class="d-lg-flex justify-content-evenly mt-5">
+              <img class="" src="/asset/google1.png" alt="download on apple store" style="width: 200px" />
+              <div class="d-lg-none" style="height: 5vh"></div>
+              <img src="/asset/apple2.png" alt="download on apple store" style="width: 200px" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Download App -->
+
+    <!-- Spacer -->
+    <div style="height: 15vh"></div>
+    <!-- End Spacer -->
+
     <!-- Footer -->
-    <div>
-      <div class="bg-primary" style="height: 30vh"></div>
+    <div class="bg-color">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-3">
+            <a class="link fs-4 fw-bold" href="/index.html">
+              <img src="/asset/logo.png" alt="" srcset="" style="height: 50px" />
+              Lord Travel
+            </a>
+            <p class="text-white mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. amet consectetur adipisicing.</p>
+          </div>
+          <div class="col-3"></div>
+          <div class="col-2 d-flex flex-column">
+            <span class="fs-5 text-bold text-white">About</span>
+            <a class="link mt-4" href="#">How to Book</a>
+            <a class="link mt-2" href="#">Contact Us</a>
+            <a class="link mt-2" href="#">Help Center</a>
+          </div>
+          <div class="col-2 d-flex flex-column">
+            <span class="fs-5 text-bold text-white">Product</span>
+            <a class="link mt-4" href="#">Destination</a>
+            <a class="link mt-2" href="#">Flight</a>
+            <a class="link mt-2" href="#">Lodging</a>
+          </div>
+          <div class="col-2 d-flex flex-column">
+            <span class="fs-5 text-bold text-white">Social</span>
+            <a class="link mt-4" href="#">Facebook</a>
+            <a class="link mt-2" href="#">Twitter</a>
+            <a class="link mt-2" href="#">Instagram</a>
+          </div>
+        </div>
+        <hr class="border border-white border-1 my-4" />
+        <div class="d-flex justify-content-between">
+          <span class="text-white">Privacy Policy</span>
+          <span class="text-white">Copyright 2022 &copy; Lord Travel</span>
+        </div>
+      </div>
     </div>
     <!-- End Footer -->
 
