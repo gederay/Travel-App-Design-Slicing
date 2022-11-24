@@ -1,0 +1,68 @@
+.navbar {
+    transition: all 0.5s;
+}
+
+.navbar-scrolled {
+    background-color: lightslategray;
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.20);
+}
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(/asset/rialto.png);
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(78, 78, 78, 0.5);
+}
+
+.shadow-fill {
+    margin-top: 50px;
+    box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+
+.hero-icon {
+    font-size: larger;
+    height: 60px;
+    width: 60px;
+    color: rgb(255, 255, 255);
+    background-color: cornflowerblue;
+    border-radius: 100%;
+}
+
+.bg-choice {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+.text-choice {
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    color: darkgray;
+}
+
+hr {
+    margin: 0px;
+}
+
+.text-trunk {
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
