@@ -30,7 +30,7 @@
     height: 60px;
     width: 60px;
     color: rgb(255, 255, 255);
-    background-color: cornflowerblue;
+    background-color: #1ca0e3;
     border-radius: 100%;
 }
 
@@ -41,7 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: cornflowerblue;
+    background-color: #1ca0e3;
 }
 
 .text-choice {
@@ -78,11 +78,11 @@ hr {
 
 .btn-color {
     color: white;
-    background-color: cornflowerblue;
+    background-color: #1ca0e3;
 }
 
 .bg-color {
-    background-color: cornflowerblue;
+    background-color: #1ca0e3;
 }
 
 .bg-download {
